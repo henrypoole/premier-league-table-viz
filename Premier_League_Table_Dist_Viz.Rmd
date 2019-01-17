@@ -3,12 +3,12 @@ title: "Premier League Table Points Vs. Position Viz"
 author: "Henry Poole"
 date: "12/22/2018"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
 
 ```{r}
