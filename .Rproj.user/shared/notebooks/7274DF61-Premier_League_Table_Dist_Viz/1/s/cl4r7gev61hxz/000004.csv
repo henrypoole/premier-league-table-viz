@@ -1,0 +1,419 @@
+"0","tableFiles <- list.files(path = ""./tables"", full.names = TRUE)"
+"0","seasonTables <- lapply(tableFiles, function(x) {"
+"0","  read_csv(x) %>% mutate(Squad = paste(substr(x, 14, 18), Squad, sep = "" ""))"
+"0","})"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"2","Parsed with column specification:
+cols(
+  Rank = col_double(),
+  Squad = col_character(),
+  Apps = col_double(),
+  Points = col_double(),
+  GDiff = col_double(),
+  W = col_double(),
+  D = col_double(),
+  L = col_double(),
+  GF = col_double(),
+  GA = col_double(),
+  Attendance = col_double(),
+  `Top Team Scorer` = col_character(),
+  Goalkeeper = col_character(),
+  Notes = col_character()
+)
+"
+"0","allTables <- bind_rows(seasonTables) %>% mutate(Rank = factor(Rank))"

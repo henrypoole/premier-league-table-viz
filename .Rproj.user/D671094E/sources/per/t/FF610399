@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545510221475.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FF610399",
+    "lastKnownWriteTime" : 8389209342666080256,
+    "last_content_update" : 1545510221475,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1418D062",
+        "caption" : "maxPoints",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=maxPoints&cache_key=1418D062",
+        "displayedObservations" : "26",
+        "environment" : "",
+        "object" : "maxPoints",
+        "preview" : "0",
+        "totalObservations" : "26",
+        "variables" : "14"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

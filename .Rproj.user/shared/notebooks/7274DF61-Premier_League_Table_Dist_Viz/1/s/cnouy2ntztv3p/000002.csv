@@ -1,0 +1,2 @@
+"0","maxDiffLabels <- allTables %>% group_by(Rank) %>% arrange(desc(GDiff), .by_group = TRUE) %>% top_n(n = 1, wt = GDiff) %>% filter(n() == 1)"
+"0","minDiffLabels <- allTables %>% group_by(Rank) %>% arrange(desc(GDiff), .by_group = TRUE) %>% top_n(n = -1, wt = GDiff) %>% filter(n() == 1)"

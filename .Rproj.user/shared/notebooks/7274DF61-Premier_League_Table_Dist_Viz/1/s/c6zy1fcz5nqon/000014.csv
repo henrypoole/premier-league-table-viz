@@ -1,0 +1,2 @@
+"0","maxPointsLabels <- allTables %>% group_by(Rank) %>% arrange(desc(Points), .by_group = TRUE) %>% top_n(n = 1, wt = Points) %>% filter(n() == 1)"
+"0","minPointsLabels <- allTables %>% group_by(Rank) %>% arrange(desc(Points), .by_group = TRUE) %>% top_n(n = -1, wt = Points) %>% filter(n() == 1)"

@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545511351814.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B9F0DCD3",
+    "lastKnownWriteTime" : 7596839688089858560,
+    "last_content_update" : 1545511351814,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E5B316CC",
+        "caption" : "minPoints",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=minPoints&cache_key=E5B316CC",
+        "displayedObservations" : "26",
+        "environment" : "",
+        "object" : "minPoints",
+        "preview" : "0",
+        "totalObservations" : "26",
+        "variables" : "14"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
