@@ -9,9 +9,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE)
-```
-
-```{r}
+rm(list = ls())
 require(tidyverse)
 ```
 
@@ -45,12 +43,12 @@ g <- ggplot(data = allTables, mapping = aes(x = Rank, y = Points)) +
                dotsize = 1,
                binwidth = 1,
                stackratio = 1,
-               fill = "blue") +
+               fill = "black") +
   geom_text(data = maxPointsLabels, mapping = aes(label = Squad), size = 2.25, vjust = -2) +
   geom_text(data = minPointsLabels, mapping = aes(label = Squad), size = 2.25, vjust = 2.5) +
   scale_y_continuous(breaks = seq(0, 100, 10), minor_breaks = seq(0, 100, 2)) + 
   labs(title = "Premier League Historical Results",
-       subtitle = "Points vs. Final Table Position: 95-96 Through 17-18 Seasons",
+       subtitle = "Points vs. Final Table Position: 95-96 Through 18-19 Seasons",
        caption = "Source: fbref.com",
        x = "Final Table Position",
        y = "Points")
@@ -76,12 +74,12 @@ g <- ggplot(data = allTables, mapping = aes(x = Rank, y = GDiff)) +
                dotsize = 1,
                binwidth = 1,
                stackratio = 1,
-               fill = "blue") +
+               fill = "black") +
   geom_text(data = maxDiffLabels, mapping = aes(label = Squad), size = 2.25, vjust = -2) +
   geom_text(data = minDiffLabels, mapping = aes(label = Squad), size = 2.25, vjust = 2.5) +
   scale_y_continuous(breaks = seq(-80, 80, 10), minor_breaks = seq(-80, 80, 2)) + 
   labs(title = "Premier League Historical Results",
-       subtitle = "Goal Differential vs. Final Table Position: 95-96 Through 17-18 Seasons",
+       subtitle = "Goal Differential vs. Final Table Position: 95-96 Through 18-19 Seasons",
        caption = "Source: fbref.com",
        x = "Final Table Position",
        y = "Goal Differential")
